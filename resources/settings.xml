@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <category label="Jellyfin">
+    <setting id="server_url" type="text" label="Jellyfin server URL" />
+    <setting id="api_key" type="text" label="Jellyfin API key" option="hidden" />
+    <setting id="user_id" type="text" label="Jellyfin UserId (optional)" />
+    <setting id="verify_https" type="bool" label="Verify HTTPS certificates" default="true" />
+    <setting id="debug" type="bool" label="Debug logging" default="false" />
+  </category>
+</settings>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="context.jellyfin.extras"
+       name="Jellyfin Extras (Context)"
+       version="1.0.0"
+       provider-name="Etienne">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="default.py">
+        <label>Jellyfin Extras</label>
+        <visible>String.IsEqual(ListItem.dbtype,movie)</visible>
+      </item>
+    </menu>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>List Jellyfin extras for the selected movie</summary>
+    <description>Shows Jellyfin extras/bonus items for the selected movie.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
