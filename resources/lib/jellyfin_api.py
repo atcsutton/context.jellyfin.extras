@@ -77,22 +77,22 @@ def find_item_id_from_imdb(imdb_tt):
             return items[0].get("Id")
 
         from resources.lib import ui
-+        chosen = ui.pick_from_list("Choisir le film Jellyfin", items, "Name")
-+        return chosen.get("Id") if chosen else None
-+
-+    except Exception as exc:
-+        utils.log("IMDb resolve via Search/Hints failed: {}".format(exc))
-+        return None
-+
-+
-+def get_extras(item_id, user_id):
-+    """
-+    Get extras/bonus for a Jellyfin item.
-+    """
-+    if not item_id or not user_id:
-+        return []
-+
-+    data = http_get("/Users/{}/Items/{}/Extras".format(user_id, item_id))
-+    if isinstance(data, list):
-+        return data
-+    return []
+        chosen = ui.pick_from_list("Choisir le film Jellyfin", items, "Name")
+        return chosen.get("Id") if chosen else None
+
+    except Exception as exc:
+        utils.log("IMDb resolve via Search/Hints failed: {}".format(exc))
+        return None
+
+
+def get_extras(item_id, user_id):
+    """
+    Get extras/bonus for a Jellyfin item.
+    """
+    if not item_id or not user_id:
+        return []
+
+    data = http_get("/Users/{}/Items/{}/Extras".format(user_id, item_id))
+    if isinstance(data, list):
+        return data
+    return []

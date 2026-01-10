@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, division, print_function, unicode_literals
 
+import urllib.parse
+
+import xbmc
+
 from resources.lib import jellyfin_api
 from resources.lib import kodi_context
 from resources.lib import ui
@@ -34,12 +38,28 @@ def main():
         ui.show_ok("Jellyfin Extras", "Aucun extra trouve pour cet element.")
         return
 
-    ui.pick_from_list("Bonus / Extras", extras, "Name")
+    chosen = ui.pick_from_list("Bonus / Extras", extras, "Name")
+    if not chosen:
+        return
+
+    extra_id = chosen.get("Id")
+    if not extra_id:
+        ui.show_ok("Jellyfin Extras", "Extra invalide.")
+        return
+
+    if not xbmc.getCondVisibility("System.HasAddon(plugin.video.jellyfin)"):
+        ui.show_ok("Jellyfin Extras", "Jellyfin for Kodi (plugin.video.jellyfin) is required for playback.")
+        return
+
+    url = "plugin://plugin.video.jellyfin/?mode=play&id={}".format(
+        urllib.parse.quote(extra_id)
+    )
+    xbmc.executebuiltin('PlayMedia("{}")'.format(url))
 
 
-+if __name__ == "__main__":
-+    try:
-+        main()
-+    except Exception as exc:
-+        utils.log("ERROR: {}".format(exc))
-+        ui.show_ok("Jellyfin Extras", "Erreur", str(exc))
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        utils.log("ERROR: {}".format(exc))
+        ui.show_ok("Jellyfin Extras", "Erreur", str(exc))

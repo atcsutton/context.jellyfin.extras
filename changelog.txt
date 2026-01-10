@@ -1,0 +1,8 @@
+# Changelog
+
+## v1.0.0
+- Initial public release.
+- Context menu addon to list Jellyfin extras for movies.
+- Settings-based configuration (no hardcoded credentials).
+- IMDb-based resolution via Jellyfin Search/Hints.
+- Playback is user-initiated: extras are listed first; selecting an item starts playback.
