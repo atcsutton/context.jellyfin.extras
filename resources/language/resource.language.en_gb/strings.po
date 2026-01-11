@@ -1,0 +1,455 @@
+# Kodi Media Center language file
+# Addon Name: Jellyfin Extras (Context)
+# Addon id: context.jellyfin.extras
+msgid ""
+msgstr ""
+"Language: en_GB\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "#32000"
+msgid "Jellyfin Extras"
+msgstr "Jellyfin Extras"
+
+msgctxt "#32001"
+msgid "Quick Connect"
+msgstr "Quick Connect"
+
+msgctxt "#32002"
+msgid "Quick Connect is disabled on the Jellyfin server."
+msgstr "Quick Connect is disabled on the Jellyfin server."
+
+msgctxt "#32003"
+msgid "Jellyfin Admin > Settings > Quick Connect."
+msgstr "Jellyfin Admin > Settings > Quick Connect."
+
+msgctxt "#32004"
+msgid "Enable Quick Connect and try again."
+msgstr "Enable Quick Connect and try again."
+
+msgctxt "#32005"
+msgid "You can also configure the addon manually."
+msgstr "You can also configure the addon manually."
+
+msgctxt "#32006"
+msgid "Unable to initiate Quick Connect."
+msgstr "Unable to initiate Quick Connect."
+
+msgctxt "#32007"
+msgid "Invalid Quick Connect response."
+msgstr "Invalid Quick Connect response."
+
+msgctxt "#32008"
+msgid "Code: {0}\n\nOpen Jellyfin > Settings > Quick Connect and enter this code.\n\nLink: {1}"
+msgstr "Code: {0}\n\nOpen Jellyfin > Settings > Quick Connect and enter this code.\n\nLink: {1}"
+
+msgctxt "#32009"
+msgid "Waiting for authorization..."
+msgstr "Waiting for authorization..."
+
+msgctxt "#32010"
+msgid "Device linked successfully."
+msgstr "Device linked successfully."
+
+msgctxt "#32011"
+msgid "Authorization received, but token is missing."
+msgstr "Authorization received, but token is missing."
+
+msgctxt "#32012"
+msgid "Timed out."
+msgstr "Timed out."
+
+msgctxt "#32013"
+msgid "Try again or configure manually."
+msgstr "Try again or configure manually."
+
+msgctxt "#32014"
+msgid "Action available for movies only."
+msgstr "Action available for movies only."
+
+msgctxt "#32015"
+msgid "Addon not configured."
+msgstr "Addon not configured."
+
+msgctxt "#32016"
+msgid "Open settings?"
+msgstr "Open settings?"
+
+msgctxt "#32017"
+msgid "IMDb ID missing in Kodi."
+msgstr "IMDb ID missing in Kodi."
+
+msgctxt "#32018"
+msgid "Unable to resolve the movie."
+msgstr "Unable to resolve the movie."
+
+msgctxt "#32019"
+msgid "Unable to identify the Jellyfin item."
+msgstr "Unable to identify the Jellyfin item."
+
+msgctxt "#32020"
+msgid "No extras found for this item."
+msgstr "No extras found for this item."
+
+msgctxt "#32021"
+msgid "Invalid extra."
+msgstr "Invalid extra."
+
+msgctxt "#32022"
+msgid "Jellyfin for Kodi (plugin.video.jellyfin) is required for playback."
+msgstr "Jellyfin for Kodi (plugin.video.jellyfin) is required for playback."
+
+msgctxt "#32023"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "#32024"
+msgid "Jellyfin server URL"
+msgstr "Jellyfin server URL"
+
+msgctxt "#32025"
+msgid "Jellyfin API key"
+msgstr "Jellyfin API key"
+
+msgctxt "#32026"
+msgid "Jellyfin access token (Quick Connect)"
+msgstr "Jellyfin access token (Quick Connect)"
+
+msgctxt "#32027"
+msgid "Jellyfin UserId (optional)"
+msgstr "Jellyfin UserId (optional)"
+
+msgctxt "#32028"
+msgid "Link device (Quick Connect)"
+msgstr "Link device (Quick Connect)"
+
+msgctxt "#32029"
+msgid "Verify HTTPS certificates"
+msgstr "Verify HTTPS certificates"
+
+msgctxt "#32030"
+msgid "Debug logging"
+msgstr "Debug logging"
+
+msgctxt "#32031"
+msgid "Jellyfin"
+msgstr "Jellyfin"
+
+msgctxt "#32032"
+msgid "Extras / Bonuses"
+msgstr "Extras / Bonuses"
+
+msgctxt "#32033"
+msgid "Jellyfin device id (Quick Connect)"
+msgstr "Jellyfin device id (Quick Connect)"
+
+msgctxt "#32034"
+msgid "Choose Jellyfin movie"
+msgstr "Choose Jellyfin movie"
+
+msgctxt "#32035"
+msgid "Starting Quick Connect..."
+msgstr "Starting Quick Connect..."
+
+msgctxt "#32036"
+msgid "Code: {0}"
+msgstr "Code: {0}"
+
+msgctxt "#32037"
+msgid "Link: {0}"
+msgstr "Link: {0}"
+
+msgctxt "#32038"
+msgid "Quick Connect failed."
+msgstr "Quick Connect failed."
+
+msgctxt "#32039"
+msgid "Import from Jellyfin for Kodi"
+msgstr "Import from Jellyfin for Kodi"
+
+msgctxt "#32040"
+msgid "Settings imported from Jellyfin for Kodi."
+msgstr "Settings imported from Jellyfin for Kodi."
+
+msgctxt "#32041"
+msgid "Import failed."
+msgstr "Import failed."
+
+msgctxt "#32042"
+msgid "Jellyfin for Kodi must be configured and logged in."
+msgstr "Jellyfin for Kodi must be configured and logged in."
+
+msgctxt "#32043"
+msgid "Authorized but token exchange failed."
+msgstr "Authorized but token exchange failed."
+
+msgctxt "#32044"
+msgid "Please retry or use manual configuration."
+msgstr "Please retry or use manual configuration."
+
+msgctxt "#32045"
+msgid "Quick Connect linked flag"
+msgstr "Quick Connect linked flag"
+
+msgctxt "#32050"
+msgid "Quick Connect (recommended)"
+msgstr "Quick Connect (recommended)"
+
+msgctxt "#32051"
+msgid "Import from Jellyfin for Kodi"
+msgstr "Import from Jellyfin for Kodi"
+
+msgctxt "#32052"
+msgid "Manual configuration (advanced)"
+msgstr "Manual configuration (advanced)"
+
+msgctxt "#32061"
+msgid "Connection method"
+msgstr "Connection method"
+
+msgctxt "#32062"
+msgid "Choose how to connect. Quick Connect is recommended."
+msgstr "Choose how to connect. Quick Connect is recommended."
+
+msgctxt "#32064"
+msgid "Manual configuration"
+msgstr "Manual configuration"
+
+msgctxt "#32065"
+msgid "Server URL"
+msgstr "Server URL"
+
+msgctxt "#32066"
+msgid "API Key"
+msgstr "API Key"
+
+msgctxt "#32067"
+msgid "User ID"
+msgstr "User ID"
+
+msgctxt "#32073"
+msgid "Connection status"
+msgstr "Connection status"
+
+msgctxt "#32074"
+msgid "Status: Connected to Jellyfin"
+msgstr "Status: Connected to Jellyfin"
+
+msgctxt "#32075"
+msgid "Status: Not configured"
+msgstr "Status: Not configured"
+
+msgctxt "#32076"
+msgid "Connection method: Quick Connect"
+msgstr "Connection method: Quick Connect"
+
+msgctxt "#32077"
+msgid "Connection method: Import from Jellyfin for Kodi"
+msgstr "Connection method: Import from Jellyfin for Kodi"
+
+msgctxt "#32078"
+msgid "Connection method: Manual configuration"
+msgstr "Connection method: Manual configuration"
+
+msgctxt "#32079"
+msgid "Server:"
+msgstr "Server:"
+
+msgctxt "#32080"
+msgid "User:"
+msgstr "User:"
+
+msgctxt "#32081"
+msgid "Advanced"
+msgstr "Advanced"
+
+msgctxt "#32083"
+msgid "(*) Required fields for manual configuration."
+msgstr "(*) Required fields for manual configuration."
+
+msgctxt "#32090"
+msgid "Connection"
+msgstr "Connection"
+
+msgctxt "#32091"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "#32092"
+msgid "Advanced"
+msgstr "Advanced"
+
+msgctxt "#32093"
+msgid "Link your device using Jellyfin Quick Connect."
+msgstr "Link your device using Jellyfin Quick Connect."
+
+msgctxt "#32094"
+msgid "Import server and user from Jellyfin for Kodi."
+msgstr "Import server and user from Jellyfin for Kodi."
+
+msgctxt "#32095"
+msgid "Example: https://medias.example.com"
+msgstr "Example: https://medias.example.com"
+
+msgctxt "#32096"
+msgid "Jellyfin user id (Dashboard > Users)."
+msgstr "Jellyfin user id (Dashboard > Users)."
+
+msgctxt "#32097"
+msgid "Jellyfin API key (Dashboard > API Keys)."
+msgstr "Jellyfin API key (Dashboard > API Keys)."
+
+msgctxt "#32098"
+msgid "Shows whether the addon is configured."
+msgstr "Shows whether the addon is configured."
+
+msgctxt "#32099"
+msgid "Current connection method."
+msgstr "Current connection method."
+
+msgctxt "#32100"
+msgid "Server used by the addon."
+msgstr "Server used by the addon."
+
+msgctxt "#32101"
+msgid "User used by the addon."
+msgstr "User used by the addon."
+
+msgctxt "#32102"
+msgid "Enable certificate verification."
+msgstr "Enable certificate verification."
+
+msgctxt "#32103"
+msgid "Enable debug logging."
+msgstr "Enable debug logging."
+
+msgctxt "#32110"
+msgid "Connection"
+msgstr "Connection"
+
+msgctxt "#32111"
+msgid "Connection method"
+msgstr "Connection method"
+
+msgctxt "#32112"
+msgid "Quick Connect (recommended)"
+msgstr "Quick Connect (recommended)"
+
+msgctxt "#32113"
+msgid "Import from Jellyfin for Kodi"
+msgstr "Import from Jellyfin for Kodi"
+
+msgctxt "#32114"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "#32115"
+msgid "Choose how Jellyfin Extras connects to your server."
+msgstr "Choose how Jellyfin Extras connects to your server."
+
+msgctxt "#32116"
+msgid "Link device via Quick Connect"
+msgstr "Link device via Quick Connect"
+
+msgctxt "#32117"
+msgid "Associates this device to your Jellyfin account using Quick Connect."
+msgstr "Associates this device to your Jellyfin account using Quick Connect."
+
+msgctxt "#32118"
+msgid "Import configuration from Jellyfin for Kodi"
+msgstr "Import configuration from Jellyfin for Kodi"
+
+msgctxt "#32119"
+msgid "Fetches server and user from Jellyfin for Kodi."
+msgstr "Fetches server and user from Jellyfin for Kodi."
+
+msgctxt "#32120"
+msgid "Manual settings"
+msgstr "Manual settings"
+
+msgctxt "#32121"
+msgid "Server URL (*)"
+msgstr "Server URL (*)"
+
+msgctxt "#32122"
+msgid "Example: https://medias.example.com"
+msgstr "Example: https://medias.example.com"
+
+msgctxt "#32123"
+msgid "User ID (*)"
+msgstr "User ID (*)"
+
+msgctxt "#32124"
+msgid "Jellyfin user id (Dashboard > Users)."
+msgstr "Jellyfin user id (Dashboard > Users)."
+
+msgctxt "#32125"
+msgid "API Key (*)"
+msgstr "API Key (*)"
+
+msgctxt "#32126"
+msgid "Jellyfin API key (Dashboard > API Keys)."
+msgstr "Jellyfin API key (Dashboard > API Keys)."
+
+msgctxt "#32130"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "#32131"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "#32132"
+msgid "Connected to Jellyfin"
+msgstr "Connected to Jellyfin"
+
+msgctxt "#32133"
+msgid "Not configured"
+msgstr "Not configured"
+
+msgctxt "#32134"
+msgid "Connection method"
+msgstr "Connection method"
+
+msgctxt "#32135"
+msgid "Server"
+msgstr "Server"
+
+msgctxt "#32136"
+msgid "User"
+msgstr "User"
+
+msgctxt "#32140"
+msgid "Advanced"
+msgstr "Advanced"
+
+msgctxt "#32141"
+msgid "Verify HTTPS certificates"
+msgstr "Verify HTTPS certificates"
+
+msgctxt "#32142"
+msgid "Enable certificate verification."
+msgstr "Enable certificate verification."
+
+msgctxt "#32143"
+msgid "Debug logging"
+msgstr "Debug logging"
+
+msgctxt "#32144"
+msgid "Enable debug logging."
+msgstr "Enable debug logging."
+
+msgctxt "#32150"
+msgid "Quick Connect selected."
+msgstr "Quick Connect selected."
+
+msgctxt "#32151"
+msgid "Import selected."
+msgstr "Import selected."
+
+msgctxt "#32152"
+msgid "Manual configuration selected."
+msgstr "Manual configuration selected."
+
+msgctxt "#32087"
+msgid "Use this mode only if Quick Connect or Import is not available."
+msgstr "Use this mode only if Quick Connect or Import is not available."

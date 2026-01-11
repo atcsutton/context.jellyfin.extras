@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.1.0
+- Added Jellyfin Quick Connect device linking.
+- Quick Connect now works without saving settings first.
+- Thumbnails displayed in extras selection list.
+- Duration displayed instead of year for each extra.
+- Two connection modes: Quick Connect (recommended) and Manual.
+- Automatic device authorization without typing API keys.
+- Stable device identity handling (DeviceId).
+
 ## v1.0.0
 - Initial public release.
 - Context menu addon to list Jellyfin extras for movies.

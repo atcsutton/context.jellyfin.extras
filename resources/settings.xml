@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
-  <category label="Jellyfin">
-    <setting id="server_url" type="text" label="Jellyfin server URL" />
-    <setting id="api_key" type="text" label="Jellyfin API key" option="hidden" />
-    <setting id="user_id" type="text" label="Jellyfin UserId (optional)" />
-    <setting id="verify_https" type="bool" label="Verify HTTPS certificates" default="true" />
-    <setting id="debug" type="bool" label="Debug logging" default="false" />
+  <category label="32110">
+    <setting id="auth_mode"
+             type="enum"
+             label="32111"
+             lvalues="32112|32114"
+             default="0"
+             help="32115" />
+
+    <setting id="quick_connect_action"
+             type="action"
+             label="32116"
+             action="RunScript(context.jellyfin.extras,quick_connect)"
+             help="32117">
+      <visible>eq(-1,0)</visible>
+    </setting>
+
+    <setting type="lsep" label="32120">
+      <visible>eq(-2,1)</visible>
+    </setting>
+
+    <setting id="manual_server_url"
+             type="text"
+             label="32121"
+             default=""
+             help="32122">
+      <visible>eq(-3,1)</visible>
+    </setting>
+
+    <setting id="manual_user_id"
+             type="text"
+             label="32123"
+             default=""
+             help="32124">
+      <visible>eq(-4,1)</visible>
+    </setting>
+
+    <setting id="manual_api_key"
+             type="text"
+             label="32125"
+             option="hidden"
+             default=""
+             help="32126">
+      <visible>eq(-5,1)</visible>
+    </setting>
+  </category>
+
+  <category label="32140">
+    <setting id="verify_https" type="bool" label="32141" default="true" help="32142" />
+    <setting id="debug" type="bool" label="32143" default="false" help="32144" />
+
+    <setting id="server_url" type="text" visible="false" default="" />
+    <setting id="api_key" type="text" option="hidden" visible="false" default="" />
+    <setting id="user_id" type="text" visible="false" default="" />
+    <setting id="access_token" type="text" option="hidden" visible="false" default="" />
+    <setting id="device_id" type="text" option="hidden" visible="false" default="" />
+    <setting id="linked" type="text" option="hidden" visible="false" default="" />
   </category>
 </settings>
